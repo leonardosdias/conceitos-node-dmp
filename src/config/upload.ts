@@ -8,7 +8,7 @@ interface IUploadConfig {
     driver: 's3' | 'disk';
 
     tmpFolder: string;
-    uploadsFolder: String;
+    uploadsFolder: string;
 
     multer: {
         storage: StorageEngine,
